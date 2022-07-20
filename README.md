@@ -11,3 +11,13 @@
 
 # Create a secret within the Key Vault
 - An application can access this "secret" that you created.
+
+
+# Create an application object so that the application can link to it and access the key vault
+- Go to Azure AD > App registrations > New registration > 
+
+
+
+# Add an access policy to allow the application object to access the key vault
+- Select the object a
+- Assign permissions
