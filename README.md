@@ -25,3 +25,13 @@
 # Add an access policy to allow the application object to access the key vault
 - Select the object 
 - Assign permissions
+
+
+
+
+# What is the Soft Delete Feature of Azure Key Vault?
+- Soft-delete feature will allow users to recover the key vault if it's been accidentaly deleted.
+- If a secret is deleted, it's not permanently deleted. Commands can be performed in PowerShell to recover.
+- If a user tries to create a secret with the same new as the deleted secret, there will be an error since it's a soft delete.
+- Commands are on #226 of Udemy
+- Purge commands are not given to an account admin. They have to be assigned. 
