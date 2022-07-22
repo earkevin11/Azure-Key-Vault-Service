@@ -35,3 +35,14 @@
 - If a user tries to create a secret with the same new as the deleted secret, there will be an error since it's a soft delete.
 - Commands are on #226 of Udemy
 - Purge commands are not given to an account admin. They have to be assigned. 
+
+
+
+
+# Azure Key Vault - Access Policies vs RBAC
+- Access Policies - used to give permissions when it comes to operations on the secrets/encryption keys
+- RBAC: assigned to users or applications to manage the key vault itself, not the keys or secrets
+- List permissions is where users can view the key
+- Get permissions is where users can get the value of the key
+
+
