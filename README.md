@@ -46,3 +46,6 @@
 - Get permissions is where users can get the value of the key
 
 
+# Azure RBAC Access Policies - Permission Model
+- In order to work with data within the resources such as the Key Vault, special roels need to be assigned.
+- Assign Key Vaults Office to your user so they can manage data in the key vault.
