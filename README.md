@@ -42,7 +42,7 @@
 
 
 
-# Azure Key Vault - Access Policies vs RBAC
+# Azure Key Vault - Access Policies (Legacy) vs RBAC
 - Access Policies - used to give permissions when it comes to operations on the secrets/encryption keys
 - RBAC: assigned to users or applications to manage the key vault itself, not the keys or secrets
 - List permissions is where users can view the key
