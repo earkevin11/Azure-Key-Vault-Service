@@ -42,13 +42,16 @@
 
 
 
-# Azure Key Vault - Access Policies (Legacy) vs RBAC
-- Access Policies - used to give permissions when it comes to operations on the secrets/encryption keys
-- RBAC: assigned to users or applications to manage the key vault itself, not the keys or secrets
+# Azure Key Vault offers two Authorization Systems - Access Policies (Legacy) vs Azure RBAC(Recommended)
+
+# Access Policies - operate on the data plane only. It is used to give permissions when it comes to operations on the secrets/encryption keys
 - List permissions is where users can view the key
 - Get permissions is where users can get the value of the key
-
+- The access policy model, on the other hand, is an legacy authorization system built in Key Vault to provide access to keys, secrets, and certificates. You can control access by assigning individual permissions to security principals (user, group, service principal, managed identity) at Key Vault scope.
+<img src="https://github.com/earkevin11/Azure-Key-Vault-Service/assets/104326475/c3ee333a-6a92-423d-9ecc-5a610f24fb21" height="100%" width="100%" alt="key vault"/>
 
 # Azure RBAC Access Policies - Permission Model
-- In order to work with data within the resources such as the Key Vault, special roels need to be assigned.
-- Assign Key Vaults Office to your user so they can manage data in the key vault.
+- Azure RBAC - operates on the data plane and the management plane. It is used assigned to users or applications to manage the key vault itself, not the keys or secrets
+- In order to work with data within the resources such as the Key Vault, special roles need to be assigned.
+
+
