@@ -1,5 +1,8 @@
 # Azure-Key-Vault-Service
 
+# What can a Security Engineer use the Azure Key Vault Service for?
+- Security Engineers can use an Azure Key Vault to secure store and programatically access secrets and certificates.
+
 # What is the Azure Key Vault Service?
 - Service used to store your secrets - encryption keys, certificates, and passwords
 - Applications will use encryption keys, certificates, or passwords to connect to a SQL database or storage account
