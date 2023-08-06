@@ -55,7 +55,7 @@
 - In order to work with data within the resources such as the Key Vault, special roles need to be assigned.
 
 
-# Important to Note
+# Important to Note #227 
 - Key Vault Reader role only works if the Key Vault that uses the Azure RBAC permission model.
 - If the Key Vault uses the access policy permission model, the Reader role will suffice.
 - In order to allow a user to access the keys/secrets/certificates, they would have to access the Key Vault resource itself first. This means they would need an RBAC role.
