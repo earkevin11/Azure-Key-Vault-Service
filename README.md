@@ -50,7 +50,7 @@
 - The access policy model, on the other hand, is an legacy authorization system built in Key Vault to provide access to keys, secrets, and certificates. You can control access by assigning individual permissions to security principals (user, group, service principal, managed identity) at Key Vault scope.
 <img src="https://github.com/earkevin11/Azure-Key-Vault-Service/assets/104326475/c3ee333a-6a92-423d-9ecc-5a610f24fb21" height="100%" width="100%" alt="key vault"/>
 
-# Azure RBAC - Permission Model
+# Azure RBAC - Permission Model #228
 - Azure RBAC - operates on the data plane and the management plane. It is used assigned to users or applications to manage the key vault itself, not the keys or secrets
 - In order to work with data within the resources such as the Key Vault, special roles need to be assigned.
 - If a user creates the AKV and is owner of the subscription, it does not mean the user will be able to manage the data (secrets,keys,certificates) in the AKV. The user needs a specific role assigned to access the data in the resource.
