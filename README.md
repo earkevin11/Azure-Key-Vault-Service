@@ -53,7 +53,7 @@
 # Azure RBAC - Permission Model
 - Azure RBAC - operates on the data plane and the management plane. It is used assigned to users or applications to manage the key vault itself, not the keys or secrets
 - In order to work with data within the resources such as the Key Vault, special roles need to be assigned.
-- If a user creates the AKV and is owner of the subscription, it does not mean the user will be able to manage the data (secrets,keys,certificates) in the AKV. The user needs a specific role.
+- If a user creates the AKV and is owner of the subscription, it does not mean the user will be able to manage the data (secrets,keys,certificates) in the AKV. The user needs a specific role assigned to access the data in the resource.
 - The role that will allow the user to manage the data is the Key Vaults Secret Officer role.
 
 
